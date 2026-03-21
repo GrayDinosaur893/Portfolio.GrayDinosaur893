@@ -63,7 +63,8 @@ function App() {
       {currentPage === 'contact' && (
         <div className="page-content">
           <h2>Contact Me</h2>
-          <p>This is the contact page content.</p>
+          <p>yt @graydinosaur893</p>
+          <p>dc @GrayDinosaur893</p>
         </div>
       )}
     </div>
