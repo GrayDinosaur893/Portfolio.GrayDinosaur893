@@ -142,7 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions, suggestions, or just to say hello:
 
 - **GitHub**: [@GrayDinosaur893](https://github.com/GrayDinosaur893)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [crdino893@gmail.com](mailto:crdino893@gmail.com)
 
 ## 🙏 Acknowledgments
 
