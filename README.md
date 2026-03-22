@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with React and Vite, showcasing my projects and skills.
 
+🌐 **[View Live Portfolio](https://portfolio-gray-dinosaur893.vercel.app/)** - No installation required!
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, minimalist design with smooth animations
@@ -43,6 +45,8 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
    ```
 
 4. **Open your browser** and navigate to `http://localhost:5173`
+
+💡 **Note**: You can also view the portfolio online at https://portfolio-gray-dinosaur893.vercel.app/ without needing to clone or install anything!
 
 ## 🏗️ Project Structure
 
