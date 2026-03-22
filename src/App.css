@@ -40,7 +40,8 @@ nav h1 {
   gap: 30px;
 }
 
-.navlinks a {
+.navlinks .nav-link {
+  position: relative;
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
@@ -49,12 +50,86 @@ nav h1 {
   border-radius: 20px;
   transition: all 0.3s ease;
   border: 1px solid transparent;
+  display: inline-block;
 }
 
-.navlinks a:hover {
+.navlinks .nav-link:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
+}
+
+.navlinks .nav-link.active {
+  background: linear-gradient(135deg, #00f260, #0575e6);
+  border-color: #00f260;
+  box-shadow: 0 4px 15px rgba(0, 242, 96, 0.4);
+  color: #000;
+  font-weight: 700;
+}
+
+/* Light Scattering Effect */
+.light-scatter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: scatterLight 2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes scatterLight {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 1;
+  }
+  50% {
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+}
+
+/* Enhanced active state with light effect */
+.navlinks .nav-link.active .light-scatter {
+  animation: scatterLight 1.5s ease-in-out infinite;
+}
+
+/* Subtle glow around active link */
+.navlinks .nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(135deg, #00f260, #0575e6);
+  border-radius: 25px;
+  z-index: -2;
+  filter: blur(10px);
+  opacity: 0.5;
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
 }
 
 /* BodyComp Styles */

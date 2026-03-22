@@ -13,9 +13,10 @@ export default function Navbar({ currentPage, onPageChange }) {
             e.preventDefault();
             onPageChange('home');
           }}
-          className={currentPage === 'home' ? 'active' : ''}
+          className={`nav-link ${currentPage === 'home' ? 'active' : ''}`}
         >
-          Home
+          <span className="link-text">Home</span>
+          {currentPage === 'home' && <div className="light-scatter"></div>}
         </a>
       </li>
       <li>
@@ -25,9 +26,10 @@ export default function Navbar({ currentPage, onPageChange }) {
             e.preventDefault();
             onPageChange('projects');
           }}
-          className={currentPage === 'projects' ? 'active' : ''}
+          className={`nav-link ${currentPage === 'projects' ? 'active' : ''}`}
         >
-          Projects
+          <span className="link-text">Projects</span>
+          {currentPage === 'projects' && <div className="light-scatter"></div>}
         </a>
       </li>
       <li>
@@ -37,9 +39,10 @@ export default function Navbar({ currentPage, onPageChange }) {
             e.preventDefault();
             onPageChange('about');
           }}
-          className={currentPage === 'about' ? 'active' : ''}
+          className={`nav-link ${currentPage === 'about' ? 'active' : ''}`}
         >
-          About
+          <span className="link-text">About</span>
+          {currentPage === 'about' && <div className="light-scatter"></div>}
         </a>
       </li>
       <li>
@@ -49,9 +52,10 @@ export default function Navbar({ currentPage, onPageChange }) {
             e.preventDefault();
             onPageChange('contact');
           }}
-          className={currentPage === 'contact' ? 'active' : ''}
+          className={`nav-link ${currentPage === 'contact' ? 'active' : ''}`}
         >
-          Contact
+          <span className="link-text">Contact</span>
+          {currentPage === 'contact' && <div className="light-scatter"></div>}
         </a>
       </li>
     </ul>
