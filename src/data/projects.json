@@ -11,82 +11,22 @@
   },
   {
     "id": 1,
-    "title": "E-commerce Website",
-    "description": "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and checkout flow.",
-    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
-    "image": "project1.jpg",
-    "liveDemo": "https://ecommerce-demo.com",
-    "github": "https://github.com/username/ecommerce",
+    "title": "Intern Finder",
+    "description": "A platform to help students and professionals find internship opportunities with advanced search and filtering.",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "image": "",
+    "liveDemo": "https://intern-finder-liart.vercel.app/",
+    "github": "https://github.com/GrayDinosaur893/Intern_finder",
     "category": "Full Stack"
   },
   {
     "id": 2,
-    "title": "Task Management App",
-    "description": "Kanban-style task management application with drag-and-drop functionality and real-time collaboration.",
-    "technologies": ["React", "Firebase", "Material-UI"],
-    "image": "project2.jpg",
-    "liveDemo": "https://taskmanager-demo.com",
-    "github": "https://github.com/username/taskmanager",
-    "category": "Frontend"
-  },
-  {
-    "id": 3,
-    "title": "Weather Dashboard",
-    "description": "Interactive weather dashboard with location-based forecasts, charts, and weather alerts.",
-    "technologies": ["React", "Chart.js", "Weather API"],
-    "image": "project3.jpg",
-    "liveDemo": "https://weather-dashboard.com",
-    "github": "https://github.com/username/weather-app",
-    "category": "API Integration"
-  },
-  {
-    "id": 4,
-    "title": "Portfolio Website",
-    "description": "Creative portfolio website showcasing projects, skills, and contact information with smooth animations.",
-    "technologies": ["React", "CSS3", "GSAP"],
-    "image": "project4.jpg",
-    "liveDemo": "https://myportfolio.com",
-    "github": "https://github.com/username/portfolio",
-    "category": "Frontend"
-  },
-  {
-    "id": 5,
-    "title": "Chat Application",
-    "description": "Real-time chat application with rooms, private messaging, and file sharing capabilities.",
-    "technologies": ["React", "Socket.io", "Node.js"],
-    "image": "project5.jpg",
-    "liveDemo": "https://chat-app.com",
-    "github": "https://github.com/username/chat-app",
-    "category": "Real-time"
-  },
-  {
-    "id": 6,
-    "title": "Recipe Finder",
-    "description": "Recipe discovery app with ingredient-based search, meal planning, and cooking timers.",
-    "technologies": ["React", "Redux", "Recipe API"],
-    "image": "project6.jpg",
-    "liveDemo": "https://recipe-finder.com",
-    "github": "https://github.com/username/recipe-app",
-    "category": "API Integration"
-  },
-  {
-    "id": 7,
-    "title": "Budget Tracker",
-    "description": "Personal finance application for tracking income, expenses, and budget goals with visual charts.",
-    "technologies": ["React", "D3.js", "Local Storage"],
-    "image": "project7.jpg",
-    "liveDemo": "https://budget-tracker.com",
-    "github": "https://github.com/username/budget-tracker",
-    "category": "Data Visualization"
-  },
-  {
-    "id": 8,
-    "title": "Movie Database",
-    "description": "Movie discovery platform with search, filtering, ratings, and detailed movie information.",
-    "technologies": ["React", "TMDB API", "CSS Grid"],
-    "image": "project8.jpg",
-    "liveDemo": "https://movie-database.com",
-    "github": "https://github.com/username/movie-database",
-    "category": "API Integration"
+    "title": "Renderer+notes holder",
+    "description": "A high-performance 3D rendering engine with support for various graphics formats and real-time visualization.",
+    "technologies": ["React", "Three.js", "WebGL"],
+    "image": "",
+    "liveDemo": "https://dinos-proj.vercel.app/",
+    "github": "https://github.com/GrayDinosaur893/Dinos_proj",
+    "category": "3D/Graphics"
   }
 ]
