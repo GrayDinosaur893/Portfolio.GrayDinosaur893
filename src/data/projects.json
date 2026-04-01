@@ -7,7 +7,8 @@
     "image": "",
     "liveDemo": "https://void-core-dino-s-ai.onrender.com",
     "github": "https://github.com/GrayDinosaur893/Void_-core-Dino-s-AI",
-    "category": "AI"
+    "category": "AI",
+    "completed": true
   },
   {
     "id": 1,
@@ -17,7 +18,8 @@
     "image": "",
     "liveDemo": "https://intern-finder-liart.vercel.app/",
     "github": "https://github.com/GrayDinosaur893/Intern_finder",
-    "category": "Full Stack"
+    "category": "Full Stack",
+    "completed": true
   },
   {
     "id": 2,
@@ -27,6 +29,7 @@
     "image": "",
     "liveDemo": "https://dinos-proj.vercel.app/",
     "github": "https://github.com/GrayDinosaur893/Dinos_proj",
-    "category": "3D/Graphics"
+    "category": "3D/Graphics",
+    "completed": true
   }
 ]
